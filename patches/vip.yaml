@@ -1,0 +1,17 @@
+---
+machine:
+  network:
+    interfaces:
+      - deviceSelector:
+          physical: true
+        dhcp: true
+        vip:
+          ip: 192.168.1.200
+  certSANs:
+    - rpi4.lab.definit.co.uk
+    - 192.168.1.200
+    - 192.168.1.201
+    - 192.168.1.202
+    - 192.168.1.203
+    - 192.168.1.204
+

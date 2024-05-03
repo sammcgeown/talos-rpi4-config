@@ -1,0 +1,6 @@
+# ---
+# machine:
+#   network:
+#     interfaces:
+#       - interface: enp0s1
+#         dhcp: true
