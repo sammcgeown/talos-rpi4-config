@@ -1,4 +1,4 @@
-# /kube-system/sources/rook.yaml
+# /flux/helmrepositories/helmrepository-rook-release.yaml
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
@@ -6,4 +6,4 @@ metadata:
   namespace: flux-system
 spec:
   url: https://charts.rook.io/release
-  interval: 1h
+  interval: 15m
