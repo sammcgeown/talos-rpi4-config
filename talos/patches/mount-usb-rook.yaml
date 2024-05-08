@@ -9,7 +9,6 @@ machine:
           - bind
           - rshared
           - rw
-
   disks:
       - device: /dev/sda # The name of the disk to use.
         partitions:
