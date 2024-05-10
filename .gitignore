@@ -1,3 +1,4 @@
 binary/
 secrets.yaml
 rendered/
+.DS_Store
