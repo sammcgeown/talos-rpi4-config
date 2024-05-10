@@ -1,5 +1,5 @@
 # /cilium/helmrelease-cilium.yaml
-apiVersion: helm.toolkit.fluxcd.io/v2beta1
+apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
   name: cilium
