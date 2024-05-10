@@ -1,6 +1,6 @@
 # /flux/helmrepositories/helmrepository-cilium.yaml
 ---
-apiVersion: source.toolkit.fluxcd.io/v1beta2
+apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: cilium
